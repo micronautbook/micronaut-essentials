@@ -1,0 +1,8 @@
+[versions]
+micronaut-platform = "4.7.1"
+
+[libraries]
+micronaut-platform = { module = "io.micronaut.platform:micronaut-platform", version.ref = "micronaut-platform" }
+micronaut-inject-java = { module = "io.micronaut:micronaut-inject-java" }
+micronaut-inject = { module = "io.micronaut:micronaut-inject" }
+micronaut-test-junit5 = { module = "io.micronaut.test:micronaut-test-junit5" }
