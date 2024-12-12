@@ -29,6 +29,8 @@ jobs:
     - name: Build Bean Introspection
       run: cd bean-introspection;./gradlew build
       
+    - name: Build Bean Mapping
+      run: cd bean-mapping;./gradlew build
   dependency-submission:
 
     runs-on: ubuntu-latest
