@@ -7,6 +7,8 @@ repositories {
 }
 
 dependencies {
+    annotationProcessor(libs.lombok)
+    compileOnly(libs.lombok)
     annotationProcessor(platform(libs.micronaut.platform))
     annotationProcessor(libs.micronaut.sourcegen.generator.java)
     annotationProcessor(libs.micronaut.inject.java)
