@@ -31,4 +31,7 @@ jobs:
       run: cd bean-mapping;./gradlew build
     
     - name: Build Builder Annotation
-      run: cd at-builder;./gradlew build      
+      run: cd at-builder;./gradlew build
+    
+    - name: Build JSON Serialization Serde
+      run: cd at-builder;./gradlew build            
