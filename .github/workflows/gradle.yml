@@ -29,3 +29,6 @@ jobs:
       
     - name: Build Bean Mapping
       run: cd bean-mapping;./gradlew build
+    
+    - name: Build Builder Annotation
+      run: cd at-builder;./gradlew build      
