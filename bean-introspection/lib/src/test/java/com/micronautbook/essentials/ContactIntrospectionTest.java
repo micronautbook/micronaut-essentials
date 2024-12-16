@@ -2,6 +2,7 @@ package com.micronautbook.essentials;
 
 import io.micronaut.core.beans.BeanIntrospection;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.DisabledInNativeImage;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -12,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class ContactIntrospectionTest {
 
+    @DisabledInNativeImage
     @Test
     void loadCsvAndInstantiateObjectsViaBeanIntrospection() throws Exception {
         var resource = getClass().getClassLoader().getResource("apple.csv");

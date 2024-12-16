@@ -4,12 +4,13 @@ import org.junit.jupiter.api.Test;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
-
+import org.junit.jupiter.api.condition.DisabledInNativeImage;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class ContactManuallyTest {
 
+    @DisabledInNativeImage
     @Test
     void loadCsvAndInstantiateObjectsViaBeanIntrospection() throws Exception {
         var resource = getClass().getClassLoader().getResource("apple.csv");
