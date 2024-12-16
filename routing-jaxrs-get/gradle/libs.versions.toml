@@ -1,0 +1,13 @@
+[versions]
+micronaut-platform = "4.7.2"
+
+[libraries]
+micronaut-platform = { module = "io.micronaut.platform:micronaut-platform", version.ref = "micronaut-platform" }
+micronaut-inject-java = { module = "io.micronaut:micronaut-inject-java" }
+micronaut-test-junit5 = { module = "io.micronaut.test:micronaut-test-junit5" }
+micronaut-serde-processor = { module = "io.micronaut.serde:micronaut-serde-processor" }
+micronaut-serde-jackson = { module = "io.micronaut.serde:micronaut-serde-jackson" }
+micronaut-http-client = { module = "io.micronaut:micronaut-http-client" }
+micronaut-http-server-netty = { module = "io.micronaut:micronaut-http-server-netty" }
+micronaut-jaxrs-processor = { module = "io.micronaut.jaxrs:micronaut-jaxrs-processor" }
+micronaut-jaxrs-server = { module = "io.micronaut.jaxrs:micronaut-jaxrs-server" }
