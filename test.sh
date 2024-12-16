@@ -1,7 +1,7 @@
 #!/bin/bash
 EXIT_STATUS=0
 
-modules=("bean-introspection" "bean-mapping" "at-builder" "json-serialization-serde" "http-client-netty-manual" "http-client-netty-declarative", "routing-controller-get" "routing-jaxrs-get", "routing-controller-method-httprequest-param" "routing-path-param")
+modules=("bean-introspection" "bean-mapping" "at-builder" "json-serialization-serde" "http-client-netty-manual" "http-client-netty-declarative", "routing-controller-get" "routing-jaxrs-get", "routing-controller-method-httprequest-param" "routing-path-param" "routing-controller-query-param")
 
 for module in "${modules[@]}"; do
   cd "$module" || exit 1
