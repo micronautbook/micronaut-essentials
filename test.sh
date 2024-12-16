@@ -1,7 +1,7 @@
 #!/bin/bash
 EXIT_STATUS=0
 
-modules=("bean-introspection" "bean-mapping" "at-builder" "json-serialization-serde" "json-http-client-netty-manual")
+modules=("bean-introspection" "bean-mapping" "at-builder" "json-serialization-serde" "json-http-client-netty-manual" "json-http-client-netty-declarative")
 
 for module in "${modules[@]}"; do
   cd "$module" || exit 1
