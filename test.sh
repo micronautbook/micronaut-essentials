@@ -2,7 +2,7 @@
 EXIT_STATUS=0
 
 # "routing-jaxrs-get"
-modules=("bean-introspection" "bean-mapping" "at-builder" "json-serialization-serde" "http-client-netty-manual" "http-client-netty-declarative" "routing-controller-get"  "routing-controller-method-httprequest-param" "routing-path-parameter" "routing-controller-query-param" "routing-controller-query-param-validation" "configuration-immutable-configuration-properties"  "configuration-configuration-properties")
+modules=("bean-introspection" "bean-mapping" "at-builder" "json-serialization-serde" "http-client-netty-manual" "http-client-netty-declarative" "routing-controller-get"  "routing-controller-method-httprequest-param" "routing-path-parameter" "routing-controller-query-param" "routing-controller-query-param-validation" "configuration-immutable-configuration-properties"  "configuration-configuration-properties" "vnderror" "problemjson")
 
 for module in "${modules[@]}"; do
   cd "$module" || exit 1

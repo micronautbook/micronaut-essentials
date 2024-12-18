@@ -14,6 +14,8 @@ dependencies {
     annotationProcessor(libs.micronaut.serde.processor)
     implementation(libs.micronaut.serde.jackson)
 
+    implementation(libs.micronaut.problem.json)
+
     annotationProcessor(libs.micronaut.validation.processor)
     implementation(libs.micronaut.validation)
 
