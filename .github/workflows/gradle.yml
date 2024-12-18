@@ -1,22 +1,17 @@
 name: Java CI with Gradle
-
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
     permissions:
       contents: read
-
     strategy:
       matrix:
         module: [ "bean-introspection" "bean-mapping" "at-builder" "json-serialization-serde" "http-client-netty-manual" "http-client-netty-declarative" "routing-controller-get"  "routing-controller-method-httprequest-param" "routing-path-parameter" "routing-controller-query-param" "routing-controller-query-param-validation" "configuration-immutable-configuration-properties" "routing-jaxrs-get" ]
-
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 21
