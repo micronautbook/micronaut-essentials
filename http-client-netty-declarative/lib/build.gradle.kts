@@ -17,6 +17,11 @@ dependencies {
     testAnnotationProcessor(platform(libs.micronaut.platform))
     testAnnotationProcessor(libs.micronaut.inject.java)
     testImplementation(libs.micronaut.test.junit5)
+    testImplementation(libs.logback.classic)
+    implementation(libs.micronaut.validation)
+    annotationProcessor(libs.micronaut.validation.processor)
+    testImplementation(libs.micronaut.http.server.netty)
+
 }
 
 testing {

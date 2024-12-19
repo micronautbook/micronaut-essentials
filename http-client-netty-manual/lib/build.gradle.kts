@@ -17,6 +17,7 @@ dependencies {
     testAnnotationProcessor(platform(libs.micronaut.platform))
     testAnnotationProcessor(libs.micronaut.inject.java)
     testImplementation(libs.micronaut.test.junit5)
+    testImplementation(libs.logback.classic)
 }
 
 testing {

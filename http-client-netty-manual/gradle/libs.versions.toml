@@ -8,3 +8,4 @@ micronaut-test-junit5 = { module = "io.micronaut.test:micronaut-test-junit5" }
 micronaut-serde-processor = { module = "io.micronaut.serde:micronaut-serde-processor" }
 micronaut-serde-jackson = { module = "io.micronaut.serde:micronaut-serde-jackson" }
 micronaut-http-client = { module = "io.micronaut:micronaut-http-client" }
+logback-classic = { module = "ch.qos.logback:logback-classic" }

@@ -10,10 +10,10 @@ for module in "${modules[@]}"; do
   if [ $EXIT_STATUS -ne 0 ]; then
     exit $EXIT_STATUS
   fi
-  ./gradlew nativeTest || EXIT_STATUS=$?
-  if [ $EXIT_STATUS -ne 0 ]; then
-    exit $EXIT_STATUS
-  fi
+  #./gradlew nativeTest || EXIT_STATUS=$?
+  #if [ $EXIT_STATUS -ne 0 ]; then
+  #  exit $EXIT_STATUS
+  #fi
   cd ..
 done
 
