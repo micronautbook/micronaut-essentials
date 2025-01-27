@@ -1,0 +1,5 @@
+[versions]
+micronaut-guides-sdk="0.0.5"
+
+[libraries]
+micronaut-guides = { module = "io.micronaut.guides:micronaut-guides", version.ref = "micronaut-guides-sdk" }

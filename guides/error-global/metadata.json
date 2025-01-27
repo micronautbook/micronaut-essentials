@@ -1,0 +1,22 @@
+{
+  "title": "Global @Error",
+  "intro": "Global @Error",
+  "authors": [
+    "Sergio del Amo"
+  ],
+  "tags": [],
+  "categories": ["Error Handling"],
+  "languages": [
+    "java"
+  ],
+  "buildTools": [
+    "gradle"
+  ],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": []
+    }
+  ]
+}
