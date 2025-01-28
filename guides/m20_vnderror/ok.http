@@ -1,0 +1,4 @@
+POST http://localhost:8080/books/save
+Accept: application/json
+
+{"name":"Netty in Action","isbn":"9781617291470","pages":1}

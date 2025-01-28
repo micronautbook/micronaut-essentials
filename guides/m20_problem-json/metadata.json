@@ -1,0 +1,16 @@
+{
+  "title": "Problem+JSON Error Format",
+  "intro": "Problem+JSON Error Format",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["Error Formats"],
+  "languages": ["java"],
+  "buildTools": ["gradle"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": ["validation", "problem-json"]
+    }
+  ]
+}
