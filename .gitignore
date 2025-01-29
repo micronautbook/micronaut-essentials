@@ -6,3 +6,4 @@ build
 bean-introspection/.idea
 .idea
 .DS_Store
+/dist
