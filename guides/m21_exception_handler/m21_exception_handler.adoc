@@ -1,1 +1,13 @@
-= Global @Error
+= Exception Handler
+
+== Code
+
+source:CantBrewCoffeeException[]
+
+source:TeapotController[]
+
+source:CantBrewCoffeeExceptionHandler[]
+
+== Test
+
+test:TeapotControllerTest[]

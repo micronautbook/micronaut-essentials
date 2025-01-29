@@ -1,1 +1,7 @@
 = Global @Error
+
+source:NotFoundController[]
+
+== Test
+
+test:NotFoundControllerTest[]

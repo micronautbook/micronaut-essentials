@@ -1,1 +1,9 @@
-= Global @Error
+= @Error Local
+
+source:Book[]
+
+source:BookController[]
+
+== Test
+
+test:BookControllerTest[]

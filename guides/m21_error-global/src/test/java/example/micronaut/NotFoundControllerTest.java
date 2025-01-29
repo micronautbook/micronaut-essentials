@@ -1,4 +1,4 @@
-package com.example;
+package example.micronaut;
 
 import io.micronaut.core.annotation.NonNull;
 import io.micronaut.core.type.Argument;
