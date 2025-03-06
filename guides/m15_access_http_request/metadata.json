@@ -1,0 +1,16 @@
+{
+  "title": "Access HTTP Request",
+  "intro": "Access HTTP Request",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["HTTP Server"],
+  "languages": ["java"],
+  "buildTools": ["gradle"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": []
+    }
+  ]
+}
