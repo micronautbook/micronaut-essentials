@@ -1,0 +1,16 @@
+{
+  "title": "JAX-RS",
+  "intro": "Use JAX-RS annotations in a Micronaut application",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["HTTP Server"],
+  "languages": ["java"],
+  "buildTools": ["gradle"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": ["jax-rs", "micronaut-test-rest-assured", "hamcrest"]
+    }
+  ]
+}

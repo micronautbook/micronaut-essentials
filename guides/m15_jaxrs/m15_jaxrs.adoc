@@ -1,0 +1,3 @@
+> What exactly is JAX-RS? JAX-RS is a POJO-based, annotation-driven framework for building web services that comply with RESTful principles. Imagine writing all the low level code to parse an HTTP request and the logic just to wire these requests to appropriate Java classes/methods. The beauty of the JAX-RS API is that it insulates developers from that complexity and allows them to concentrate on business logic. That’s precisely where the use of POJOs and annotations come into play! JAX-RS has annotations to bind specific URI patterns and HTTP operations to individual methods of your Java class.
+
+Gupta, Abhishek. [REST assured with JAX-RS: speak HTTP using Java](https://abhishek-gupta.gitbook.io/rest-assured-with-jaxrs/)
