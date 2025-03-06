@@ -1,0 +1,16 @@
+{
+  "title": "Withers",
+  "intro": "Wither Methods with",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["Source Code Generation"],
+  "languages": ["java"],
+  "buildTools": ["gradle"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": ["sourcegen-generator"]
+    }
+  ]
+}
