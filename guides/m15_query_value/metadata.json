@@ -1,0 +1,16 @@
+{
+  "title": "@QueryValue",
+  "intro": "@QueryValue",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["HTTP Server"],
+  "languages": ["java"],
+  "buildTools": ["gradle"],
+  "publicationDate": "2025-04-07",
+  "apps": [
+    {
+      "name": "default",
+      "features": []
+    }
+  ]
+}
