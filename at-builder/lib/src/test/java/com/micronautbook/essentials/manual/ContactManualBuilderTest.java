@@ -8,7 +8,8 @@ class ContactManualBuilderTest {
 
     @Test
     void builderTest() {
-        var expected = new Contact("Tim", "Cook", "CEO", "Apple Inc.", List.of("https://www.apple.com/leadership/tim-cook/"));
+        var expected = new Contact("Tim", "Cook", "CEO", "Apple Inc.",
+                List.of("https://www.apple.com/leadership/tim-cook/"));
         assertEquals(expected, Contact.builder()
                 .firstName("Tim")
                 .lastName("Cook")
