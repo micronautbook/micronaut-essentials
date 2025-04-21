@@ -1,4 +1,4 @@
-package com.micronautbook.essentials;
+package example.micronaut;
 
 import io.micronaut.json.JsonMapper;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
