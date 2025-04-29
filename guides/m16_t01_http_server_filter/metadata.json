@@ -1,0 +1,16 @@
+{
+  "title": "HTTP Server Filter",
+  "intro": "HTTP Server Filter",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["Core Concepts"],
+  "languages": ["java"],
+  "buildTools": ["gradle"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": ["validation"]
+    }
+  ]
+}

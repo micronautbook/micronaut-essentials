@@ -1,0 +1,16 @@
+{
+  "title": "@Property",
+  "intro": "@Property",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["Configuration"],
+  "languages": ["java"],
+  "buildTools": ["gradle"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": []
+    }
+  ]
+}

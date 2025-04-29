@@ -1,0 +1,16 @@
+{
+  "title": "Expose OpenAPI Generation with Swagger UI",
+  "intro": "Expose OpenAPI Generation with Swagger UI",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["Open API"],
+  "languages": ["java"],
+  "buildTools": ["gradle", "maven"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": ["openapi", "validation", "swagger-ui"]
+    }
+  ]
+}
