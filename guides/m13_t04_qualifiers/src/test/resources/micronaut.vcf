@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 15.4.1//EN
+N:Framework;Micronaut;;;
+EMAIL;type=INTERNET;type=HOME;type=pref:info@micronaut.io
+X-SOCIALPROFILE;type=twitter:http://twitter.com/micronautfw
+X-SOCIALPROFILE;type=linkedin.com:https://www.linkedin.com/showcase/28176137
+item1.URL;type=pref:https://micronaut.io
+item1.X-ABLabel:_$!<HomePage>!$_
+URL;type=WORK:https://github.com/micronaut-projects/
+URL;type=HOME:https://fosstodon.org/@micronaut
+item2.URL:https://www.youtube.com/@MicronautFramework
+item2.X-ABLabel:_$!<Other>!$_
+item3.URL:https://discord.com/invite/9xRFsHv98T
+item3.X-ABLabel:_$!<Other>!$_
+X-ABShowAs:COMPANY
+END:VCARD
