@@ -1,0 +1,1 @@
+https://docs.micronaut.io/latest/guide/#builtInExceptionHandlers[Built-In Exception Handlers]

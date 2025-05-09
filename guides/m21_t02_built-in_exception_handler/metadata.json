@@ -1,0 +1,16 @@
+{
+  "title": "Built-In Exception Handler",
+  "intro": "Built-In Exception Handler",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["Core Concepts"],
+  "languages": ["java"],
+  "buildTools": ["gradle"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": ["validation"]
+    }
+  ]
+}
