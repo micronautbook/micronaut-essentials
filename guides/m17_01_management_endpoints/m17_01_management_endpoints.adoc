@@ -1,0 +1,1 @@
+https://docs.micronaut.io/latest/guide/#management[Management endpoints]
