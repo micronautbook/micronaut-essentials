@@ -1,0 +1,101 @@
+== Lifecyle Events
+
+|===
+|Event | Description
+
+| https://docs.micronaut.io/latest/api/io/micronaut/context/event/StartupEvent.html[StartupEvent]
+| An event fired once startup is complete
+
+|https://docs.micronaut.io/snapshot/api/io/micronaut/runtime/server/event/ServerStartupEvent.html[ServerStartupEvent]
+|Emitted when the server completes startup
+
+| https://docs.micronaut.io/latest/api/io/micronaut/context/event/ShutdownEvent.html[ShutdowEvent]
+| An event fired prior to starting shutdown sequence.
+
+|https://docs.micronaut.io/snapshot/api/io/micronaut/runtime/server/event/ServerShutdownEvent.html[ServerShutdownEvent]
+|Emitted when the server shuts down
+
+|===
+
+== Bean Lifecyle Events
+
+|===
+|Event | Description
+
+| https://docs.micronaut.io/latest/api/io/micronaut/context/event/BeanCreatedEvent.html[BeanCreatedEvent]
+| An event fired when a bean is created and fully initialized.
+
+| https://docs.micronaut.io/latest/api/io/micronaut/context/event/BeanDestroyedEvent.html[BeanDestroyedEvent]
+| An event fired when a bean has been destroyed and all PreDestroy methods have been invoked.
+
+| https://docs.micronaut.io/latest/api/io/micronaut/context/event/BeanPreDestroyEvent.html[BeanPreDestroyEvent]
+| An event fired when a bean is about to be destroyed but before any PreDestroy methods are invoked.
+
+| https://docs.micronaut.io/latest/api/io/micronaut/context/event/BeanInitializingEvent.html[BeanInitializingEvent]
+| An event fired when a bean's properties have been populated but initialization hooks (such as PostConstruct methods) have not yet been triggered.
+
+|===
+
+
+== Discovery
+
+|===
+|Event | Description
+
+| https://docs.micronaut.io/snapshot/api/io/micronaut/discovery/event/ServiceReadyEvent.html[ServiceReadyEvent]
+| An event fired when a service has completed starting and is ready to service requests.
+
+|https://docs.micronaut.io/snapshot/api/io/micronaut/discovery/event/ServiceStoppedEvent.html[ServiceStoppedEvent]
+| An event triggered when a ServiceInstance has shutdown and will no longer service requests.
+
+|===
+
+== Health
+
+|===
+|Event | Description
+
+|https://docs.micronaut.io/snapshot/api/io/micronaut/health/HeartBeatEvent.html[HeartBeatEvent]
+| A heartbeat event is an event fired periodically and configured by https://docs.micronaut.io/latest/guide/configurationreference.html#io.micronaut.health.HeartbeatConfiguration[Heartbeat Configuration].
+
+|===
+
+== Refreshable
+
+|===
+|Event | Description
+
+| https://docs.micronaut.io/latest/api/io/micronaut/runtime/context/scope/refresh/RefreshEvent.html[RefreshEvent]
+| An `ApplicationEvent` for handling refreshes.
+
+|===
+
+== Retry and Circuit Breaker
+
+|===
+|Event | Description
+
+| https://docs.micronaut.io/latest/api/io/micronaut/retry/event/RetryEvent.html[RetryEvent]
+| An event triggered on each retry.
+
+| https://docs.micronaut.io/latest/api/io/micronaut/retry/event/CircuitOpenEvent.html[CircuitOpenEvent]
+| An event fired when the Circuit is `CircuitState.OPEN` and requests are no longer being accepted.
+
+| https://docs.micronaut.io/latest/api/io/micronaut/retry/event/CircuitClosedEvent.html[CircuitOpenEvent]
+| An event fired when a Circuit is `CircuitState.CLOSED` and has resumed accepting requests.
+
+|===
+
+
+== WebSockets Events
+
+|===
+|Event | Description
+
+| https://docs.micronaut.io/latest/api/io/micronaut/websocket/event/WebSocketSessionClosedEvent.html[WebSocketSessionClosedEvent]
+| Fired when a WebSocket session is closed on the server.
+
+| https://docs.micronaut.io/latest/api/io/micronaut/websocket/event/WebSocketSessionOpenEvent.html[WebSocketSessionOpenEvent]
+| Fired when a WebSocket Session is opened on the Server.
+
+|===
