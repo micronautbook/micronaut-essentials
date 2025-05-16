@@ -1,0 +1,16 @@
+{
+  "title": "Listening to Micronaut bean created events",
+  "intro": "Listening to Micronaut bean created events",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["Core Concepts"],
+  "languages": ["java"],
+  "buildTools": ["gradle"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": ["sourcegen-generator"]
+    }
+  ]
+}
