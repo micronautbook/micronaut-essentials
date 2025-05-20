@@ -1,0 +1,16 @@
+{
+  "title": "Routing",
+  "intro": "Routing",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["Testing"],
+  "languages": ["java"],
+  "buildTools": ["gradle", "maven"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": ["mockito"]
+    }
+  ]
+}
