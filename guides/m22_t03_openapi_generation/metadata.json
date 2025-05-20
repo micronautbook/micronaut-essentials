@@ -1,0 +1,16 @@
+{
+  "title": "Code Generation from OpenAPI specification with Gradle",
+  "intro": "Code Generation from OpenAPI specification with Gradle",
+  "authors": ["Sergio del Amo"],
+  "tags": [],
+  "categories": ["Open API"],
+  "languages": ["java"],
+  "buildTools": ["gradle", "maven"],
+  "publicationDate": "2025-01-27",
+  "apps": [
+    {
+      "name": "default",
+      "features": ["openapi", "validation"]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+Code Generation from OpenAPI specification
+
+== Gradle
+
+https://micronaut-projects.github.io/micronaut-gradle-plugin/latest/#_generating_a_server[Generating a Server] with the Micronaut Gradle Plugin.
+
+[source, kotlin]
+----
+plugins {
+    id("io.micronaut.openapi") version "4.5.3"
+}
+
+micronaut {
+    openapi {
+        server(file("src/openapi/openapispecification.yml")) {
+            apiPackageName = "example.micronaut.api"
+            modelPackageName = "example.micronaut.model"
+            useReactive = false
+        }
+    }
+}
+
+----
+
+== Maven
+
+https://micronaut-projects.github.io/micronaut-maven-plugin/latest/examples/openapi.html[Micronaut Maven Plugin Server Generation from OpenAPI Specification].
+
+
+[source, xml]
+----
+<properties>
+    <micronaut.openapi.generate.server>true</micronaut.openapi.generate.server>
+    <micronaut.openapi.definition>src/openapi/openapispecification.yml</micronaut.openapi.definition>
+    <micronaut.openapi.api.package.name>example.micronaut.api</micronaut.openapi.api.package.name>
+    <micronaut.openapi.model.package.name>example.micronaut.model</micronaut.openapi.model.package.name>
+    <micronaut.openapi.use.reactive>false</micronaut.openapi.use.reactive>
+...
+..
+.
+</properties>
+----
